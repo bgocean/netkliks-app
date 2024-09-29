@@ -15,7 +15,7 @@
 
 .content-cards__item--title {
   display: flex;
-  fwrap: wrap;
+  flex-wrap: wrap;
   gap: 4px;
   margin-bottom: 4px;
 
@@ -23,11 +23,11 @@
   span {
     margin: 0;
     font-family: Inter, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 16px;    
     line-height: 19px;
     color: rgb(0, 0, 0);
   }
+  
   & h5 {
     font-weight: 700;
   }
